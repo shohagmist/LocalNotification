@@ -13,6 +13,7 @@
 		BA9E23EB219BB565006E27F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9E23EA219BB565006E27F4 /* Assets.xcassets */; };
 		BA9E23EE219BB565006E27F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9E23EC219BB565006E27F4 /* LaunchScreen.storyboard */; };
 		BA9E23F1219BB565006E27F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E23F0219BB565006E27F4 /* main.m */; };
+		BA9E23F9219BBEFE006E27F4 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9E23F8219BBEFE006E27F4 /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BA9E23ED219BB565006E27F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9E23EF219BB565006E27F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9E23F0219BB565006E27F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA9E23F8219BBEFE006E27F4 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9E23F9219BBEFE006E27F4 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				BA9E23E0219BB55B006E27F4 /* LocalNotification */,
 				BA9E23DF219BB55B006E27F4 /* Products */,
+				BA9E23F7219BBEFE006E27F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +73,14 @@
 				BA9E23F0219BB565006E27F4 /* main.m */,
 			);
 			path = LocalNotification;
+			sourceTree = "<group>";
+		};
+		BA9E23F7219BBEFE006E27F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9E23F8219BBEFE006E27F4 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
